@@ -11,3 +11,5 @@ const writeEvent = (text) => {
 
 
 writeEvent('Welcome to RPS');
+
+const sock = io();
