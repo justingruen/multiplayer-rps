@@ -1,3 +1,5 @@
+const sock = io();
+
 const writeEvent = (text) => {
     //  <ul> element
     const parent = document.querySelector('#events');
@@ -11,5 +13,3 @@ const writeEvent = (text) => {
 
 
 writeEvent('Welcome to RPS');
-
-const sock = io();
